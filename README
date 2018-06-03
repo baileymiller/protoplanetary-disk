@@ -1,0 +1,22 @@
+# Protoplanetary Disk Rendering for PBRT
+
+A tool for rendering protoplanetary disks. Uses PBRT to create the renderings and python to generate the voxel grids.
+
+![alt text](edge_on_disk.png)
+
+# Building
+
+```
+  cd pbrt-v3
+  mkdir build
+  cd build
+  cmake ..
+```
+
+# Running
+
+```
+python create_disk.py
+```
+
+Note, there are several parameters that can be controlled by changing values in `create_disk.py`. Look at the file for more information.
