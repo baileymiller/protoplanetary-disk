@@ -245,8 +245,8 @@ def create_multiple_beta():
 
 if __name__ == "__main__":
   #create_multiple_inclinations()
-  create_multiple_inclinations_top_to_side()
+  #create_multiple_inclinations_top_to_side()
   #create_multiple_height()
   #create_multiple_alpha_top_view()
   #create_multiple_beta()
-  #create_edge_on_disk()
+  create_edge_on_disk()
