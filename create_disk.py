@@ -124,9 +124,9 @@ class ProtoplanetaryDisk:
     return int(x + nx * (y + ny * z))
 
   def write_pbrt_file(self, voxel, nx, ny, nz, height = 0.5, 
-                      inclination = 0, name = "out.exr", samples = 128,
+                      inclination = 0, name = "out.exr", samples = 256,
                       sigma_s = 1, sigma_a = 1, 
-                      xres=100, yres=100):
+                      xres=250, yres=250):
     pbrt = "LookAt\n\
       4 0 0 # Eye position\n\
       0 0 0       # look at point\n\
